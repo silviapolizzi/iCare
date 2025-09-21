@@ -1,0 +1,22 @@
+{
+    "broker": "test.mosquitto.org",
+    "port": 1883,
+    "baseTopic": "Patient_Monitor_2022",
+    "catalog_address": "http://127.0.0.1:9090/api/",
+    "telegramToken": "5354444090:AAGcdO3eaNI5I2pYCVx86zFDmuxQb8__Kus",
+    "admin": {
+        "userID": "admin",
+        "password": "admin"
+
+    
+    }, 
+    "thingspeak_chID": 1718792,
+    "write_api_key": "434C95BEI6UMSS6D",
+    "read_api_key": "DY7ERVTDND6JPNUN",
+    "sensors_dict":{
+        "oxygen": "s_0x01",
+        "room temperature": "s_0x02",
+        "heart rate": "s_0x03",
+        "body temperature": "s_0x04"
+    }
+}
